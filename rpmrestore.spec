@@ -25,6 +25,8 @@ attributes.
 %install
 %{__rm} -rf %{buildroot}
 %{makeinstall_std}
+%{__rm} -r %{buildroot}%{_docdir}
+
 %{__mv} %{buildroot}%{_bindir}/{rpmrestore.pl,rpmrestore}
 %{__perl} -pi -e 's/^rpmrestore\.pl/rpmrestore/g' %{buildroot}%{_bindir}/rpmrestore %{buildroot}%{_mandir}/man1/rpmrestore.1
 
