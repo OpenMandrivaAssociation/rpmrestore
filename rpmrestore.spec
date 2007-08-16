@@ -1,6 +1,6 @@
 Name:           rpmrestore
 Version:        1.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Restores install attributes from the RPM database
 Group:          System/Configuration/Packaging
@@ -26,6 +26,7 @@ attributes.
 %{__rm} -rf %{buildroot}
 %{makeinstall_std}
 %{__mv} %{buildroot}%{_bindir}/{rpmrestore.pl,rpmrestore}
+%{__perl} -pi -e 's/^rpmrestore\.pl/rpmrestore/g' %{buildroot}%{_bindir}/rpmrestore %{buildroot}%{_mandir}/man1/rpmrestore.1
 
 %clean
 %{__rm} -rf %{buildroot}
