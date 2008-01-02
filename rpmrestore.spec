@@ -8,6 +8,7 @@ License:        GPL
 URL:            http://rpmrestore.sourceforge.net/
 Source0:        http://ovh.dl.sourceforge.net/rpmrestore/rpmrestore-%{version}.tar.gz
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 The RPM database stores the user, group, time, mode for all files,
