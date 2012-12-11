@@ -38,3 +38,60 @@ attributes.
 %doc rpmrestore.lsm Authors COPYING Changelog NEWS Todo Readme
 %attr(0755,root,root) %{_bindir}/rpmrestore
 %{_mandir}/man1/rpmrestore.1*
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0:1.3-5mdv2010.0
++ Revision: 433455
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 0:1.3-4mdv2009.0
++ Revision: 260335
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 0:1.3-3mdv2009.0
++ Revision: 251499
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Nov 16 2007 David Walluck <walluck@mandriva.org> 0:1.3-1mdv2008.1
++ Revision: 109030
+- 1.3
+
+* Thu Aug 16 2007 David Walluck <walluck@mandriva.org> 0:1.2-2mdv2008.0
++ Revision: 64096
+- remove duplicate docs
+- reflect the name that we install as
+
+
+* Tue Mar 20 2007 David Walluck <walluck@mandriva.org> 1.2-1mdv2007.1
++ Revision: 147050
+- 1.2
+
+* Tue Jan 09 2007 David Walluck <walluck@mandriva.org> 0:1.1-1mdv2007.1
++ Revision: 106265
+- 1.1
+
+* Fri Dec 08 2006 David Walluck <walluck@mandriva.org> 0:1.0-1mdv2007.1
++ Revision: 92215
+- 1.0
+
+* Thu Nov 16 2006 David Walluck <walluck@mandriva.org> 0:0.9-1mdv2007.1
++ Revision: 84678
+- 0.9
+
+* Thu Nov 09 2006 David Walluck <walluck@mandriva.org> 0:0.8-1mdv2007.0
++ Revision: 79896
+- 0.8
+- 0.3
+
+* Sun Oct 15 2006 David Walluck <walluck@mandriva.org> 0:0.1-1mdv2006.0
++ Revision: 64946
+- Import rpmrestore
+
+* Wed Oct 11 2006 David Walluck <walluck@mandriva.org> 0:0.1-1mdv2007.1
+- release
+
