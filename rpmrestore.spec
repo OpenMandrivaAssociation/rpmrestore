@@ -1,6 +1,6 @@
 Name:           rpmrestore
 Version:        1.3
-Release:        %mkrel 5
+Release:        6
 Epoch:          0
 Summary:        Restores install attributes from the RPM database
 Group:          System/Configuration/Packaging
