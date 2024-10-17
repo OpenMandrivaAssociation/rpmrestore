@@ -5,7 +5,7 @@ Epoch:          0
 Summary:        Restores install attributes from the RPM database
 Group:          System/Configuration/Packaging
 License:        GPL
-URL:            http://rpmrestore.sourceforge.net/
+URL:            https://rpmrestore.sourceforge.net/
 Source0:        http://ovh.dl.sourceforge.net/rpmrestore/rpmrestore-%{version}.tar.gz
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
