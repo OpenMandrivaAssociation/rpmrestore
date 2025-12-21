@@ -10,6 +10,7 @@ Source0:        http://ovh.dl.sourceforge.net/rpmrestore/rpmrestore-%{version}.t
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	make
 %description
 The RPM database stores the user, group, time, mode for all files,
 and offers a command to display the changes between install state (database)
